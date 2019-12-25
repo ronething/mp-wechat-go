@@ -1,7 +1,17 @@
-app:
-  addr: 127.0.0.1:8889
-wechat:
-  appId: xx
-  appSecret: xx
-  token: xx
-  encodingAESKey: xx
+mode: dev
+dev:
+  app:
+    addr: 127.0.0.1:8889
+  wechat:
+    appId: xx
+    appSecret: xx
+    token: xx
+    encodingAESKey: xx
+test:
+  app:
+    addr: 127.0.0.1:8889
+  wechat:
+    appId: xx
+    appSecret: xx
+    token: xx
+    encodingAESKey: xx

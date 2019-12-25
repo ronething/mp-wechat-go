@@ -22,8 +22,8 @@ type app struct {
 }
 
 type config struct {
-	App app
-	Wechat  wechat
+	App    app
+	Wechat wechat
 }
 
 var MpConfig config
@@ -38,10 +38,14 @@ func InitConfig() (err error) {
 		return err
 	}
 
-	if err = v.Unmarshal(&MpConfig); err != nil {
+	runMode := v.GetString("mode")
+
+	if err = v.UnmarshalKey(runMode, &MpConfig); err != nil {
 		fmt.Printf("init config err: %+v", err)
 		return err
 	}
+
+	fmt.Println(MpConfig)
 
 	return
 }
