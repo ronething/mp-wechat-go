@@ -1,0 +1,25 @@
+# github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
+github.com/bradfitz/gomemcache/memcache
+# github.com/gomodule/redigo v2.0.0+incompatible
+github.com/gomodule/redigo/internal
+github.com/gomodule/redigo/redis
+# github.com/silenceper/wechat v2.0.1+incompatible
+github.com/silenceper/wechat
+github.com/silenceper/wechat/cache
+github.com/silenceper/wechat/context
+github.com/silenceper/wechat/device
+github.com/silenceper/wechat/js
+github.com/silenceper/wechat/material
+github.com/silenceper/wechat/menu
+github.com/silenceper/wechat/message
+github.com/silenceper/wechat/miniprogram
+github.com/silenceper/wechat/oauth
+github.com/silenceper/wechat/pay
+github.com/silenceper/wechat/qr
+github.com/silenceper/wechat/server
+github.com/silenceper/wechat/template
+github.com/silenceper/wechat/user
+github.com/silenceper/wechat/util
+# golang.org/x/crypto v0.0.0-20191219195013-becbf705a915
+golang.org/x/crypto/pkcs12
+golang.org/x/crypto/pkcs12/internal/rc2
